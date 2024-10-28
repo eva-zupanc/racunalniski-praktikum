@@ -41,9 +41,16 @@ body {
     float: right;
     margin-left: 2em;
 }
+.slika p:last-child {
+    font-size: 0.8em;
+}
+b::before {
+    content: '<3';
+}
 .slika img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
